@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:padding="20dp"
+    android:background="#E8F5E9"
+    tools:context=".ShowActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/tvResult"
+        android:textAlignment="center"
+        android:fontFamily="@font/lovedacae"
+        android:text="*단 결과 : \n" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lovedacae"
+        android:text="다시입력"
+        android:id="@+id/btnBack"
+        android:textSize="40dp"
+        android:backgroundTint="#E3F2FD"
+        android:textColor="@color/black"
+        android:onClick="onClickBack"/>
+</LinearLayout>

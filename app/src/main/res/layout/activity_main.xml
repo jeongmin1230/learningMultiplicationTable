@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="@font/lovedacae"
+        android:text="구구단으로 볼\n 1~19 사이의\n 숫자를 입력해주세요." />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:id="@+id/etInput"
+        android:fontFamily="@font/lovedacae" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lovedacae"
+        android:padding="10dp"
+        android:text="다음"
+        android:id="@+id/btnNext"
+        android:textSize="40dp"
+        android:backgroundTint="#E8F5E9"
+        android:textColor="@color/black"
+        android:onClick="onClickNext"/>
+</LinearLayout>
